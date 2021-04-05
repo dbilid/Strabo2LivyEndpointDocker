@@ -1,0 +1,5 @@
+http://www.opengis.net/ont/geosparql#asWKT,prop0
+http://www.opengis.net/ont/geosparql#hasGeometry,prop1
+http://earthanalytics.eu/fs/ontology/hasRECDATE,prop2
+http://earthanalytics.eu/fs/ontology/hasDN,prop3
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,prop4
