@@ -1,4 +1,6 @@
-Dockefile for Strabo2 Livy Endpoint
+Dockerfile for Strabo2 Livy Endpoint
+
+Jars from strabo2docker/geospark must be put in a directory in the host machine, accessible by Livy, e.g. /tmp/, and value sparkJars in connection.properties must be updated accordingly.
 
 Docker container can be built as:
 
