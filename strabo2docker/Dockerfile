@@ -9,12 +9,12 @@ RUN git clone https://github.com/db-ee/ontop-spatial.git -b diststrabon
 
 WORKDIR "/usr/local/tomcat/ontop-spatial"
 
+RUN mvn clean install -DskipTests
+
+RUN mv ./endpoint-livy/target/endpoint2-livy-1.16.1.war /usr/local/tomcat/webapps/
+
 COPY dictionary.csv ./
 COPY statistics.csv ./
 COPY asWKTTables.txt ./
 
-COPY connection.properties ./endpoint-livy/WebContent/WEB-INF/
-
-RUN mvn clean install -DskipTests
-
-RUN mv ./endpoint-livy/target/endpoint2-livy-1.16.1.war /usr/local/tomcat/webapps/
+COPY connection.properties ./../webapps/
