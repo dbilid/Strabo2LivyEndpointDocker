@@ -1,5 +1,10 @@
-http://www.opengis.net/ont/geosparql#asWKT,prop0
-http://www.opengis.net/ont/geosparql#hasGeometry,prop1
-http://earthanalytics.eu/fs/ontology/hasRECDATE,prop2
-http://earthanalytics.eu/fs/ontology/hasDN,prop3
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type,prop4
+http://earthanalytics.eu/polar/ontology/hasURL,prop0
+http://www.opengis.net/ont/geosparql#asWKT,prop1
+http://earthanalytics.eu/polar/ontology/belongsToImage,prop2
+http://www.opengis.net/ont/geosparql#hasGeometry,prop3
+http://earthanalytics.eu/polar/ontology/hasThumbnail,prop4
+http://earthanalytics.eu/polar/ontology/hasCT,prop5
+http://earthanalytics.eu/polar/ontology/hasTitle,prop6
+http://earthanalytics.eu/polar/ontology/hasCTClassName,prop7
+http://earthanalytics.eu/polar/ontology/hasRECDAT,prop8
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,prop9

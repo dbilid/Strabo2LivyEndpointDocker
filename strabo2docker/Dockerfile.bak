@@ -1,6 +1,13 @@
 FROM tomcat:9.0.44-jdk8
 
-RUN wget godel.di.uoa.gr:8080/endpoint2-livy-1.16.1.war
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y git && \
+    apt-get install -y maven
+
+RUN git clone https://github.com/db-ee/ontop-spatial.git -b diststrabon 
+
+WORKDIR "/usr/local/tomcat/ontop-spatial"
 
 RUN mvn clean install -DskipTests
 
