@@ -10,4 +10,6 @@ COPY dictionary.csv ./
 COPY statistics.csv ./
 COPY asWKTTables.txt ./
 
+COPY geospark* /tmp/
+
 COPY connection.properties ./../webapps/
