@@ -4,7 +4,7 @@ WORKDIR "/usr/local/tomcat/ontop-spatial"
 
 RUN wget godel.di.uoa.gr:8080/FoodSecurity.war
 
-RUN mv ./endpoint2-livy-1.16.1.war /usr/local/tomcat/webapps/
+RUN mv ./FoodSecurity.war /usr/local/tomcat/webapps/
 
 COPY dictionary.csv ./
 COPY statistics.csv ./
