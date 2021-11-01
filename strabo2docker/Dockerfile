@@ -11,3 +11,5 @@ COPY statistics.csv ./
 COPY asWKTTables.txt ./
 
 COPY connection.properties ./../webapps/
+
+COPY logging.properties ./../../conf/
