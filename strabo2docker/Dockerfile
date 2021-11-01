@@ -12,6 +12,3 @@ COPY asWKTTables.txt ./
 
 COPY connection.properties ./../webapps/
 
-COPY logging.properties /usr/local/tomcat/conf/
-RUN ls /usr/local/tomcat/conf/
-RUN cat /usr/local/tomcat/conf/logging.properties
