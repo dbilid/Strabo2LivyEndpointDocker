@@ -1,10 +1,10 @@
 FROM tomcat:9.0.44-jdk8
 
+ENV JAVA_OPTS="-XX:PermSize=4096m -XX:MaxPermSize=2048m"
+
 WORKDIR "/usr/local/tomcat/ontop-spatial"
 
-RUN wget godel.di.uoa.gr:8080/endpoint2-livy-1.16.1.war
-
-RUN mv ./endpoint2-livy-1.16.1.war /usr/local/tomcat/webapps/
+COPY FoodSecurity1.war /usr/local/tomcat/webapps/
 
 COPY dictionary.csv ./
 COPY statistics.csv ./
