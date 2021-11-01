@@ -14,4 +14,4 @@ COPY connection.properties ./../webapps/
 
 COPY logging.properties ./../../conf/
 RUN ls ./../../conf/
-RUN cat ./../../conf/logging.properties
+RUN cat /usr/local/tomcat/conf/logging.properties
