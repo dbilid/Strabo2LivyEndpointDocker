@@ -13,3 +13,5 @@ COPY asWKTTables.txt ./
 COPY connection.properties ./../webapps/
 
 COPY logging.properties ./../../conf/
+RUN ls ./../../conf/
+RUN cat ./../../conf/logging.properties
