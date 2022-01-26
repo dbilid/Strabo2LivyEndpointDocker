@@ -6,7 +6,9 @@ WORKDIR "/usr/local/tomcat/ontop-spatial"
 
 RUN wget teleios2.di.uoa.gr:8080/strabo2.war
 
-COPY strabo2.war /usr/local/tomcat/webapps/strabo2.war
+RUN cp strabo2.war /usr/local/tomcat/webapps/strabo2.war
+
+#COPY strabo2.war /usr/local/tomcat/webapps/strabo2.war
 
 COPY dictionary.csv ./
 COPY statistics.csv ./
