@@ -4,9 +4,9 @@ ENV JAVA_OPTS="-XX:PermSize=4096m -XX:MaxPermSize=2048m"
 
 WORKDIR "/usr/local/tomcat/ontop-spatial"
 
-RUN wget teleios2.di.uoa.gr:8080/strabo2-29.war
+RUN wget teleios2.di.uoa.gr:8080/strabo2-30.war
 
-RUN cp strabo2-29.war /usr/local/tomcat/webapps/strabo2.war
+RUN cp strabo2-30.war /usr/local/tomcat/webapps/strabo2.war
 
 #COPY strabo2.war /usr/local/tomcat/webapps/strabo2.war
 
