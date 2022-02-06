@@ -7,7 +7,7 @@ http://www.opengis.net/ont/geosparql#hasGeometry,table7prop5
 http://ai.di.uoa.gr/fs/ontology/hasSnowCover,table7prop6
 http://ai.di.uoa.gr/gadm/ontology/hasUpperLevelUnit,table7prop7
 http://ai.di.uoa.gr/fs/ontology/hasSoilStorage,table7prop8
-http://ai.di.uoa.gr/polar/ontology/hasTitle,table7prop9
+http://ai.di.uoa.gr/polar/ontology/hasTitle,table7prop40
 http://ai.di.uoa.gr/fs/ontology/hasClassName,table7prop10
 http://ai.di.uoa.gr/polar/ontology/hasImageID,table7prop11
 http://ai.di.uoa.gr/fs/ontology/hasCNTR_CODE,table7prop12
@@ -17,12 +17,12 @@ http://ai.di.uoa.gr/fs/ontology/hasCropTypeNumber,table7prop15
 http://ai.di.uoa.gr/gadm/ontology/hasBeginLifespanVersion,table7prop16
 http://ai.di.uoa.gr/fs/ontology/hasMeanAmount,table7prop17
 http://ai.di.uoa.gr/fs/ontology/hasEndDate,table7prop18
-http://ai.di.uoa.gr/polar/ontology/hasThumbnail,table7prop19
+http://ai.di.uoa.gr/polar/ontology/hasThumbnail,table7prop42
 http://ai.di.uoa.gr/fs/ontology/hasCropType,table7prop20
 http://ai.di.uoa.gr/gadm/ontology/country,table7prop21
 http://ai.di.uoa.gr/fs/ontology/hasCapability,table7prop22
 http://ai.di.uoa.gr/fs/ontology/hasLabel,table7prop23
-http://ai.di.uoa.gr/polar/ontology/hasURL,table7prop24
+http://ai.di.uoa.gr/polar/ontology/hasURL,table7prop41
 http://ai.di.uoa.gr/fs/ontology/hasNUTS_ID,table7prop25
 http://www.opengis.net/ont/geosparql#asWKT,table7prop26
 http://ai.di.uoa.gr/polar/ontology/hasCT,table7prop27
@@ -35,6 +35,6 @@ http://ai.di.uoa.gr/fs/ontology/belongsTo,table7prop33
 http://ai.di.uoa.gr/fs/ontology/hasRelativeAmount,table7prop34
 http://ai.di.uoa.gr/fs/ontology/hasID,table7prop35
 http://ai.di.uoa.gr/gadm/ontology/hasName,table7prop36
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type,table7prop37
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,table7prop43
 http://ai.di.uoa.gr/fs/ontology/hasPrecipitation,table7prop38
 http://ai.di.uoa.gr/fs/ontology/hasDescription,table7prop39
